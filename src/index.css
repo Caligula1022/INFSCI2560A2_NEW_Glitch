@@ -1,13 +1,136 @@
-body {
+*,
+::after,
+::before {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* search  */
+
+.search {
+  width: 100%;
+  max-width: 100%;
+  padding: 3%;
+}
+
+.search h1 {
+  margin-bottom: 1%;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 20%;
+  background: whitesmoke;
+  padding: 0.5%;
+  color: cornflowerblue;
+}
+
+.search .error {
+  padding: 1%;
+  color: deeppink;
+}
+
+/* movies wall  */
+
+.movies {
+  display: grid;
+  /* border: 10px blue solid; */
+  gap: 3%;
+  padding: 3%;
+  /* text-decoration: none; */
+}
+
+.movie {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.movie img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.movie-info {
+  /* position: absolute; */
+  width: 100%;
+  padding: 0.5%;
+  /* text-decoration-style: none; */
+}
+
+.movie-info h4 {
+  /* margin-bottom: 0.5%; */
+  color: rgb(1, 1, 1);
+}
+
+.movie-info p {
+  /* margin-top: 0.5%; */
+  color: rgb(1, 1, 1);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 576px) {
+  .movies {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+}
+
+/* single movie page */
+
+.single-movie {
+  width: 100%;
+  max-width: 100%;
+  /* margin: 5%; */
+  display: grid;
+}
+.single-movie img {
+  width: 100%;
+  padding: 3%;
+  display: block;
+}
+
+.single-info {
+  padding: 3%;
+  /* border: 2px blue solid; */
+  /* width: 80%; */
+}
+
+.single-info p {
+  padding: 1%;
+}
+
+.single-info h3 {
+  padding: 1%;
+}
+
+.single-info h4 {
+  padding: 1%;
+}
+
+.single-info .btn {
+  text-transform: capitalize;
+  padding: 1%;
+  display: inline-block;
+  border-radius: 2%;
+  color: azure;
+  background: steelblue;
+  font-style: normal;
+  letter-spacing: 2%;
+  text-decoration: none;
+}
+
+/* .single-info h3 {
+  padding: 1%;
+} */
+
+@media screen and (min-width: 576px) {
+  .single-movie {
+    grid-template-columns: 1fr 2fr;
+  }
 }
