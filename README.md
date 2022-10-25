@@ -1,31 +1,18 @@
-Need more power?  
-[Boost your Glitch apps for improved performance!](https://glitch.com/boost)  
-------------
-***
+# Document for A2
 
-Starter React App on Glitch
-===========================
+### What framework did you pick and why?
 
-This app is a very small scaffold to get you started using the default Create React App.
+#### A: I chose the React framework. The reason is not only because React is the most popular framework in the world today, but also because it is very efficient and easy to use. React is used to create reusable user-interface components for each state, that can automatically update and render data without the need of reloading the page.So using React can provide a silky smooth experience. At the same time, the JSX syntax used in React was amazing and made me feel how powerful it is, making the process of front-end development a lot smoother. I was stunned when I discovered that I could create html elements directly in jsx. React also has its own DOM. The Virtual DOM is React's lightweight version of the Real DOM. Real DOM manipulation is substantially slower than virtual DOM manipulation. When an object's state changes, Virtual DOM updates only that object in the real DOM rather than all of them. This makes React a lot more efficient. Since I had some knowledge of angular before, I found this framework really easy to learn and understand when I was learning React. That's why I pick it.
 
-Click `Show` in the header to see your app live. Updates to your code will update live. Once you're done editing, Glitch will run the `build` command in your `package.json`, and show the generated version!
+#### Here are some React usage data.
 
-You can read more about generated static sites [in our support documentation](https://help.glitch.com/kb/article/112-what-is-a-react-static-site-generator-and-how-can-i-use-it-on-glitch/).
+- ##### 475k websites on the web are powered by React.
+- ##### 64.8% of javascript developers are currently using React.
+- ##### Ranked 1st most popular front-end javascript framework in State Of JS survey.
+- ##### Github – 120.5k stars, 21k forks and 1200 contributors.
 
-Your Project
-------------
+### What about that framework appealed to you, for this project?
 
-- edit files in `src` folder, it contains all the React stuff
-- drag in `assets`, like images or music, to add them to your project
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+#### A: There are several main points that attracted me.
 
-
-By [Glitch](https://glitch.com/)
--------------------
-
-Glitch is the friendly commmunity where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-[Find out more](https://glitch.com/about).
-
-\ ゜o゜)ノ
+1. ####

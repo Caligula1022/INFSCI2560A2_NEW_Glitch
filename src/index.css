@@ -114,6 +114,21 @@ body {
 }
 
 .single-info .btn {
+  /* width: 15%; */
+  text-transform: capitalize;
+  padding: 1%;
+  display: inline-block;
+  border-radius: 2%;
+  color: azure;
+  background: steelblue;
+  font-style: normal;
+  letter-spacing: 2%;
+  text-decoration: none;
+  margin-left: 2%;
+}
+
+.single-info .btnImdb {
+  /* width: 15%; */
   text-transform: capitalize;
   padding: 1%;
   display: inline-block;

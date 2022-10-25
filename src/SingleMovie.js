@@ -55,6 +55,7 @@ const SingleMovie = () => {
     imdbRating: imdbrating,
   } = movie;
   console.log(movie);
+  const imdbUrl = 'https://www.imdb.com/title/' + id;
   return (
     <section className='single-movie'>
       <img src={poster} alt={title} />
@@ -68,6 +69,9 @@ const SingleMovie = () => {
         <h4>Language: {language}</h4>
         <h4>Awards: {awards}</h4>
         <h4>IMDB Rating: {imdbrating}</h4>
+        <a href={'https://www.imdb.com/title/' + id} className='btnImdb'>
+          IMDb Link
+        </a>
         <Link to='/' className='btn'>
           back to home page
         </Link>
