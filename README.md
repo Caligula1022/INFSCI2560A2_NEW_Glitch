@@ -62,9 +62,9 @@ PWAs work in a browser but behave similarly to native apps. The major reason why
 
 1. INFSCI2560 class provided some links to help me to start a framework from scratch which helps me a lot especially at the beginning of the development. Several of these articles also clarified for me the differences between several common frameworks so that I could make a choice.
 
-2. The second main resource is the tutorials from w3school. These tutorials basically accompanied me throughout the entire process of the assignment. Whenever I encounter a point that is unclear or confusing I first go to the tutorials here. In addition, there are tutorial sites such as MDN that have helped me a lot in this process.
+2. The second main resource is the tutorials from [w3school](https://www.w3schools.com/). These tutorials basically accompanied me throughout the entire process of the assignment. Whenever I encounter a point that is unclear or confusing I first go to the tutorials here. In addition, there are tutorial sites such as [MDN](https://developer.mozilla.org/) that have helped me a lot in this process.
 
-3. My other main learning resource is Udemy, and I'm roughly halfway through a full React tutorial on that. This has helped me tremendously and given me a very systematic process of learning React. I think this is also the best choice for newbies to learn a framework, because you can start with a complete systematic tutorial, from the simple to the difficult, all aspects. You can follow the tutorial and get familiar with the process of a web app from 0 to 1 in general.
+3. My other main learning resource is [Udemy](https://www.udemy.com/course/react-tutorial-and-projects-course/), and I'm roughly halfway through a full React tutorial on that. This has helped me tremendously and given me a very systematic process of learning React. I think this is also the best choice for newbies to learn a framework, because you can start with a complete systematic tutorial, from the simple to the difficult, all aspects. You can follow the tutorial and get familiar with the process of a web app from 0 to 1 in general.
 
 4. It is also important to mention the help from StackOverFlow, which is also a source of learning that should not be ignored, especially in some cases to solve urgent problems.
 
